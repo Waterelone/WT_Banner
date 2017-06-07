@@ -1,10 +1,10 @@
 **step1:在项目根目录build.grade文件中添加**
 <pre><code>
 allprojects {
-  repositories {
- 	...
- 	maven { url 'https://jitpack.io' }
-  }
+   repositories {
+ 	  ...
+ 	  maven { url 'https://jitpack.io' }
+   }
 }
 </code></pre>
 
