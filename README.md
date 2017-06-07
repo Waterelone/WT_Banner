@@ -14,3 +14,4 @@ allprojects {
      compile 'com.github.Waterelone:WT_Banner:1.0.0'
  }
  </code></pre>
+ **如何使用在DEMO中有说明**
