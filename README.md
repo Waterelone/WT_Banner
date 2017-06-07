@@ -1,5 +1,4 @@
-###step1
-**在项目根目录build.grade文件中添加**
+**step1:在项目根目录build.grade文件中添加**
 <pre><code>
 allprojects {
  	repositories {
@@ -9,9 +8,7 @@ allprojects {
 }
 </code></pre>
 
-
- ###step2
- **在app项目下的build.grade文件中添加依赖**
+ **step2:在app项目下的build.grade文件中添加依赖**
  <pre><code>
  dependencies {
      compile 'com.github.Waterelone:WT_Banner:1.0.0'
