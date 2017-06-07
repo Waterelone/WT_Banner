@@ -2,10 +2,10 @@
 **在项目根目录build.grade文件中添加**
 <pre><code>
 allprojects {
- 		repositories {
- 			...
- 			maven { url 'https://jitpack.io' }
- 		}
+ 	repositories {
+ 		...
+ 		maven { url 'https://jitpack.io' }
+ 	}
 }
 </code></pre>
 
@@ -14,6 +14,6 @@ allprojects {
  **在app项目下的build.grade文件中添加依赖**
  <pre><code>
  dependencies {
-         compile 'com.github.Waterelone:WT_Banner:8c546fa93b'
+     compile 'com.github.Waterelone:WT_Banner:1.0.0'
  }
  </code></pre>
